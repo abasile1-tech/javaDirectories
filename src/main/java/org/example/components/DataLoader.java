@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Profile("!test")
-@Component // comment this out once you have seeded the db if you do not want to run the data loader every time
+//@Component // comment this out once you have seeded the db if you do not want to run the data loader every time
 public class DataLoader implements ApplicationRunner {
 
     @Autowired
